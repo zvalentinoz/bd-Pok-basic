@@ -3,6 +3,10 @@
 /node_modules
 /build
 
+# MongoDB (Docker volumes)
+mongo/
+data/
+
 # Logs
 logs
 *.log
