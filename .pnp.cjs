@@ -43,6 +43,8 @@ const RAW_RUNTIME_STATE =
           ["@types/jest", "npm:30.0.0"],\
           ["@types/node", "npm:22.19.7"],\
           ["@types/supertest", "npm:6.0.3"],\
+          ["class-transformer", "npm:0.5.1"],\
+          ["class-validator", "npm:0.14.3"],\
           ["eslint", "virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:9.39.2"],\
           ["eslint-config-prettier", "virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:10.1.8"],\
           ["eslint-plugin-prettier", "virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:5.5.5"],\
@@ -2130,8 +2132,8 @@ const RAW_RUNTIME_STATE =
           ["@types/class-validator", null],\
           ["@types/reflect-metadata", null],\
           ["@types/rxjs", null],\
-          ["class-transformer", null],\
-          ["class-validator", null],\
+          ["class-transformer", "npm:0.5.1"],\
+          ["class-validator", "npm:0.14.3"],\
           ["file-type", "npm:21.3.0"],\
           ["iterare", "npm:1.2.1"],\
           ["load-esm", "npm:1.0.3"],\
@@ -2218,8 +2220,8 @@ const RAW_RUNTIME_STATE =
           ["@types/class-validator", null],\
           ["@types/nestjs__common", null],\
           ["@types/reflect-metadata", null],\
-          ["class-transformer", null],\
-          ["class-validator", null],\
+          ["class-transformer", "npm:0.5.1"],\
+          ["class-validator", "npm:0.14.3"],\
           ["reflect-metadata", "npm:0.2.2"]\
         ],\
         "packagePeers": [\
@@ -2843,6 +2845,15 @@ const RAW_RUNTIME_STATE =
           ["@types/methods", "npm:1.1.4"],\
           ["@types/superagent", "npm:8.1.9"],\
           ["@types/supertest", "npm:6.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/validator", [\
+      ["npm:13.15.10", {\
+        "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/@types-validator-npm-13.15.10-eacbd3fa04-10c0.zip/node_modules/@types/validator/",\
+        "packageDependencies": [\
+          ["@types/validator", "npm:13.15.10"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4291,6 +4302,27 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/cjs-module-lexer-npm-2.2.0-a4ea3b2e41-10c0.zip/node_modules/cjs-module-lexer/",\
         "packageDependencies": [\
           ["cjs-module-lexer", "npm:2.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["class-transformer", [\
+      ["npm:0.5.1", {\
+        "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/class-transformer-npm-0.5.1-96b5161e6c-10c0.zip/node_modules/class-transformer/",\
+        "packageDependencies": [\
+          ["class-transformer", "npm:0.5.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["class-validator", [\
+      ["npm:0.14.3", {\
+        "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/class-validator-npm-0.14.3-4a8c74fae9-10c0.zip/node_modules/class-validator/",\
+        "packageDependencies": [\
+          ["@types/validator", "npm:13.15.10"],\
+          ["class-validator", "npm:0.14.3"],\
+          ["libphonenumber-js", "npm:1.12.35"],\
+          ["validator", "npm:13.15.26"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6821,6 +6853,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["libphonenumber-js", [\
+      ["npm:1.12.35", {\
+        "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/libphonenumber-js-npm-1.12.35-439d00d743-10c0.zip/node_modules/libphonenumber-js/",\
+        "packageDependencies": [\
+          ["libphonenumber-js", "npm:1.12.35"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["lines-and-columns", [\
       ["npm:1.2.4", {\
         "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/lines-and-columns-npm-1.2.4-d6c7cc5799-10c0.zip/node_modules/lines-and-columns/",\
@@ -7814,6 +7855,8 @@ const RAW_RUNTIME_STATE =
           ["@types/jest", "npm:30.0.0"],\
           ["@types/node", "npm:22.19.7"],\
           ["@types/supertest", "npm:6.0.3"],\
+          ["class-transformer", "npm:0.5.1"],\
+          ["class-validator", "npm:0.14.3"],\
           ["eslint", "virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:9.39.2"],\
           ["eslint-config-prettier", "virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:10.1.8"],\
           ["eslint-plugin-prettier", "virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:5.5.5"],\
@@ -9221,6 +9264,15 @@ const RAW_RUNTIME_STATE =
           ["@types/istanbul-lib-coverage", "npm:2.0.6"],\
           ["convert-source-map", "npm:2.0.0"],\
           ["v8-to-istanbul", "npm:9.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["validator", [\
+      ["npm:13.15.26", {\
+        "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/validator-npm-13.15.26-f522f3cb3c-10c0.zip/node_modules/validator/",\
+        "packageDependencies": [\
+          ["validator", "npm:13.15.26"]\
         ],\
         "linkType": "HARD"\
       }]\
