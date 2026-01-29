@@ -7,6 +7,9 @@
 mongo/
 data/
 
+
+.env
+
 # Logs
 logs
 *.log

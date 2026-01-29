@@ -32,6 +32,7 @@ const RAW_RUNTIME_STATE =
           ["@eslint/js", "npm:9.39.2"],\
           ["@nestjs/cli", "virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:11.0.16"],\
           ["@nestjs/common", "virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:11.1.12"],\
+          ["@nestjs/config", "virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:4.0.2"],\
           ["@nestjs/core", "virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:11.1.12"],\
           ["@nestjs/mapped-types", "virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:2.1.0"],\
           ["@nestjs/mongoose", "virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:11.0.4"],\
@@ -43,6 +44,7 @@ const RAW_RUNTIME_STATE =
           ["@types/jest", "npm:30.0.0"],\
           ["@types/node", "npm:22.19.7"],\
           ["@types/supertest", "npm:6.0.3"],\
+          ["axios", "npm:0.27.2"],\
           ["class-transformer", "npm:0.5.1"],\
           ["class-validator", "npm:0.14.3"],\
           ["eslint", "virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:9.39.2"],\
@@ -51,6 +53,7 @@ const RAW_RUNTIME_STATE =
           ["express", "npm:5.2.1"],\
           ["globals", "npm:16.5.0"],\
           ["jest", "virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:30.2.0"],\
+          ["joi", "npm:18.0.2"],\
           ["mongoose", "npm:9.1.5"],\
           ["pokedex", "workspace:."],\
           ["prettier", "npm:3.8.1"],\
@@ -1176,6 +1179,62 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@hapi/address", [\
+      ["npm:5.1.1", {\
+        "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/@hapi-address-npm-5.1.1-2944e6ed9b-10c0.zip/node_modules/@hapi/address/",\
+        "packageDependencies": [\
+          ["@hapi/address", "npm:5.1.1"],\
+          ["@hapi/hoek", "npm:11.0.7"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@hapi/formula", [\
+      ["npm:3.0.2", {\
+        "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/@hapi-formula-npm-3.0.2-70d8fffc4e-10c0.zip/node_modules/@hapi/formula/",\
+        "packageDependencies": [\
+          ["@hapi/formula", "npm:3.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@hapi/hoek", [\
+      ["npm:11.0.7", {\
+        "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/@hapi-hoek-npm-11.0.7-67a33297f6-10c0.zip/node_modules/@hapi/hoek/",\
+        "packageDependencies": [\
+          ["@hapi/hoek", "npm:11.0.7"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@hapi/pinpoint", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/@hapi-pinpoint-npm-2.0.1-4da9d8fcbc-10c0.zip/node_modules/@hapi/pinpoint/",\
+        "packageDependencies": [\
+          ["@hapi/pinpoint", "npm:2.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@hapi/tlds", [\
+      ["npm:1.1.4", {\
+        "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/@hapi-tlds-npm-1.1.4-443bc2e9a1-10c0.zip/node_modules/@hapi/tlds/",\
+        "packageDependencies": [\
+          ["@hapi/tlds", "npm:1.1.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@hapi/topo", [\
+      ["npm:6.0.2", {\
+        "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/@hapi-topo-npm-6.0.2-2ca029706c-10c0.zip/node_modules/@hapi/topo/",\
+        "packageDependencies": [\
+          ["@hapi/hoek", "npm:11.0.7"],\
+          ["@hapi/topo", "npm:6.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@humanfs/core", [\
       ["npm:0.19.1", {\
         "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/@humanfs-core-npm-0.19.1-e2e7aaeb6e-10c0.zip/node_modules/@humanfs/core/",\
@@ -2155,6 +2214,35 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@nestjs/config", [\
+      ["npm:4.0.2", {\
+        "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/@nestjs-config-npm-4.0.2-89b6fa8e1c-10c0.zip/node_modules/@nestjs/config/",\
+        "packageDependencies": [\
+          ["@nestjs/config", "npm:4.0.2"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:4.0.2", {\
+        "packageLocation": "./.yarn/__virtual__/@nestjs-config-virtual-f6dc103373/3/Users/valen/AppData/Local/Yarn/Berry/cache/@nestjs-config-npm-4.0.2-89b6fa8e1c-10c0.zip/node_modules/@nestjs/config/",\
+        "packageDependencies": [\
+          ["@nestjs/common", "virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:11.1.12"],\
+          ["@nestjs/config", "virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:4.0.2"],\
+          ["@types/nestjs__common", null],\
+          ["@types/rxjs", null],\
+          ["dotenv", "npm:16.4.7"],\
+          ["dotenv-expand", "npm:12.0.1"],\
+          ["lodash", "npm:4.17.21"],\
+          ["rxjs", "npm:7.8.2"]\
+        ],\
+        "packagePeers": [\
+          "@nestjs/common",\
+          "@types/nestjs__common",\
+          "@types/rxjs",\
+          "rxjs"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@nestjs/core", [\
       ["npm:11.1.12", {\
         "packageLocation": "./.yarn/unplugged/@nestjs-core-virtual-a5f3e332d5/node_modules/@nestjs/core/",\
@@ -2499,6 +2587,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@sinonjs/commons", "npm:3.0.1"],\
           ["@sinonjs/fake-timers", "npm:13.0.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@standard-schema/spec", [\
+      ["npm:1.1.0", {\
+        "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/@standard-schema-spec-npm-1.1.0-d3e5ccd2e2-10c0.zip/node_modules/@standard-schema/spec/",\
+        "packageDependencies": [\
+          ["@standard-schema/spec", "npm:1.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3847,6 +3944,17 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["axios", [\
+      ["npm:0.27.2", {\
+        "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/axios-npm-0.27.2-dbe3a48aea-10c0.zip/node_modules/axios/",\
+        "packageDependencies": [\
+          ["axios", "npm:0.27.2"],\
+          ["follow-redirects", "virtual:dbe3a48aea1dd5649e16abaf23d4ae05582d2149e16141955113766a0f84f681baf358c77ddccfc82eb23e4ccc66c6c912df62a9c01f2a83f1842bf86cc297b1#npm:1.15.11"],\
+          ["form-data", "npm:4.0.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["babel-jest", [\
       ["npm:30.2.0", {\
         "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/babel-jest-npm-30.2.0-c2df62d909-10c0.zip/node_modules/babel-jest/",\
@@ -4743,6 +4851,32 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["dotenv", [\
+      ["npm:16.4.7", {\
+        "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/dotenv-npm-16.4.7-29680c94f8-10c0.zip/node_modules/dotenv/",\
+        "packageDependencies": [\
+          ["dotenv", "npm:16.4.7"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:16.6.1", {\
+        "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/dotenv-npm-16.6.1-01334288ea-10c0.zip/node_modules/dotenv/",\
+        "packageDependencies": [\
+          ["dotenv", "npm:16.6.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["dotenv-expand", [\
+      ["npm:12.0.1", {\
+        "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/dotenv-expand-npm-12.0.1-48a9560774-10c0.zip/node_modules/dotenv-expand/",\
+        "packageDependencies": [\
+          ["dotenv", "npm:16.6.1"],\
+          ["dotenv-expand", "npm:12.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["dunder-proto", [\
       ["npm:1.0.1", {\
         "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/dunder-proto-npm-1.0.1-90eb6829db-10c0.zip/node_modules/dunder-proto/",\
@@ -5437,6 +5571,28 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/flatted-npm-3.3.3-ca455563b2-10c0.zip/node_modules/flatted/",\
         "packageDependencies": [\
           ["flatted", "npm:3.3.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["follow-redirects", [\
+      ["npm:1.15.11", {\
+        "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/follow-redirects-npm-1.15.11-ae7b2db266-10c0.zip/node_modules/follow-redirects/",\
+        "packageDependencies": [\
+          ["follow-redirects", "npm:1.15.11"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:dbe3a48aea1dd5649e16abaf23d4ae05582d2149e16141955113766a0f84f681baf358c77ddccfc82eb23e4ccc66c6c912df62a9c01f2a83f1842bf86cc297b1#npm:1.15.11", {\
+        "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-ff02d27ef3/3/Users/valen/AppData/Local/Yarn/Berry/cache/follow-redirects-npm-1.15.11-ae7b2db266-10c0.zip/node_modules/follow-redirects/",\
+        "packageDependencies": [\
+          ["@types/debug", null],\
+          ["debug", null],\
+          ["follow-redirects", "virtual:dbe3a48aea1dd5649e16abaf23d4ae05582d2149e16141955113766a0f84f681baf358c77ddccfc82eb23e4ccc66c6c912df62a9c01f2a83f1842bf86cc297b1#npm:1.15.11"]\
+        ],\
+        "packagePeers": [\
+          "@types/debug",\
+          "debug"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6705,6 +6861,22 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["joi", [\
+      ["npm:18.0.2", {\
+        "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/joi-npm-18.0.2-79a3fbcace-10c0.zip/node_modules/joi/",\
+        "packageDependencies": [\
+          ["@hapi/address", "npm:5.1.1"],\
+          ["@hapi/formula", "npm:3.0.2"],\
+          ["@hapi/hoek", "npm:11.0.7"],\
+          ["@hapi/pinpoint", "npm:2.0.1"],\
+          ["@hapi/tlds", "npm:1.1.4"],\
+          ["@hapi/topo", "npm:6.0.2"],\
+          ["@standard-schema/spec", "npm:1.1.0"],\
+          ["joi", "npm:18.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["js-tokens", [\
       ["npm:4.0.0", {\
         "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/js-tokens-npm-4.0.0-0ac852e9e2-10c0.zip/node_modules/js-tokens/",\
@@ -6908,6 +7080,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["lodash", [\
+      ["npm:4.17.21", {\
+        "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/lodash-npm-4.17.21-6382451519-10c0.zip/node_modules/lodash/",\
+        "packageDependencies": [\
+          ["lodash", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:4.17.23", {\
         "packageLocation": "../../Users/valen/AppData/Local/Yarn/Berry/cache/lodash-npm-4.17.23-50bdb1c01a-10c0.zip/node_modules/lodash/",\
         "packageDependencies": [\
@@ -7844,6 +8023,7 @@ const RAW_RUNTIME_STATE =
           ["@eslint/js", "npm:9.39.2"],\
           ["@nestjs/cli", "virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:11.0.16"],\
           ["@nestjs/common", "virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:11.1.12"],\
+          ["@nestjs/config", "virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:4.0.2"],\
           ["@nestjs/core", "virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:11.1.12"],\
           ["@nestjs/mapped-types", "virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:2.1.0"],\
           ["@nestjs/mongoose", "virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:11.0.4"],\
@@ -7855,6 +8035,7 @@ const RAW_RUNTIME_STATE =
           ["@types/jest", "npm:30.0.0"],\
           ["@types/node", "npm:22.19.7"],\
           ["@types/supertest", "npm:6.0.3"],\
+          ["axios", "npm:0.27.2"],\
           ["class-transformer", "npm:0.5.1"],\
           ["class-validator", "npm:0.14.3"],\
           ["eslint", "virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:9.39.2"],\
@@ -7863,6 +8044,7 @@ const RAW_RUNTIME_STATE =
           ["express", "npm:5.2.1"],\
           ["globals", "npm:16.5.0"],\
           ["jest", "virtual:caaa5d5017865cacc5dccf93f045a496e561b8277052241e47742e1eca55d582eb64610f2048fe1483e64febbaae9413672def20b2942e544395f1c524170c7d#npm:30.2.0"],\
+          ["joi", "npm:18.0.2"],\
           ["mongoose", "npm:9.1.5"],\
           ["pokedex", "workspace:."],\
           ["prettier", "npm:3.8.1"],\
