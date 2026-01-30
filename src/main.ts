@@ -1,41 +1,35 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
-import {ValidationPipe} from '@nestjs/common';
+import { ValidationPipe } from '@nestjs/common';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
- app.setGlobalPrefix('api/v1');
+  app.setGlobalPrefix('api/v1');
 
-app.useGlobalPipes(
- new ValidationPipe({
- whitelist: true,
- forbidNonWhitelisted: true,
- transform: true,
- transformOptions:{
-  enableImplicitConversion:true
- }
-   })
-  
+  app.useGlobalPipes(
+    new ValidationPipe({
+      whitelist: true,
+      forbidNonWhitelisted: true,
+      transform: true,
+      transformOptions: {
+        enableImplicitConversion: true
+      }
+    })
+  );
 
-);
-
-  
-  // AQUÍ SÍ SE VEN LAS VARIABLES DEL .ENV
+  // Variables de entorno (solo para debug)
   console.log('========== VARIABLES DE ENTORNO ==========');
   console.log('PORT:', process.env.PORT);
-  console.log('MONGODB:', process.env.MONGODB);
+  console.log('MONGODB:', process.env.MONGODB?.substring(0, 50) + '...');
   console.log('=============================================');
 
-
-  // En main.ts, agrega esto temporal:
-console.log('CWD:', process.cwd());
-console.log('Archivo .env existe?:', require('fs').existsSync('.env'));
-console.log('Contenido .env:', require('fs').readFileSync('.env', 'utf-8'));
+  // Puerto dinámico para Render
+  const port = process.env.PORT || 3000;
   
-  await app.listen(process.env.PORT || 3000);
-  console.log(`App corriendo en puerto ${process.env.PORT || 3000}`);
-
-
+  // IMPORTANTE: Escuchar en 0.0.0.0 para Render
+  await app.listen(port, '0.0.0.0');
+  
+  console.log(`🚀 App corriendo en puerto ${port}`);
 }
 bootstrap();
