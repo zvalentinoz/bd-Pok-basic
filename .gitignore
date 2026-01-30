@@ -9,6 +9,7 @@ data/
 
 
 .env
+.env.prod
 
 # Logs
 logs
